@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Montserrat&family=Open+Sans:ital,wght@0,400;1,800&family=Oswald&display=swap');
+
+.body{
+    font-family: 'Regular 400', sans-serif;
+}  
+
+/*inodev*/
+.H1DEBUT{
+    color:black;
+    background-color: grey;
+    font-size: 50px;
+    padding-right: 100px;
+    padding-left: 300px;
+}
+
+
+
+
+/*dropdow*/
+
+.dropbtn {
+    background-color: rgb(85, 28, 241);
+    color: rgb(25, 168, 49);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.nemroud{
+color: chartreuse;
+font-size: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5672f0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #d2e710}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(226, 15, 96);
+}
